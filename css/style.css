@@ -1,0 +1,88 @@
+/**common CSS*/
+body{
+	padding-top: 100px;
+	font-family: sans-serif;
+	color: black;
+	text-align: justify;
+}
+.container{
+	width: 100%;
+	margin: 10px 10px;
+}
+h1{
+	font-size: 36px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+h2{
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+h1,h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: normal;
+
+}
+p{
+	line-height: 21px;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.single-row{
+	width: 100%;
+}
+.col-left{
+	width: 63%;
+	border-radius: 6px;
+	float: left;
+	padding-left: 15px;
+}
+.col-right{
+	width: 32%;
+	float: left;
+	padding-left: 15px;
+}
+.col-left img{
+	width: 100%;
+}
+.btn {
+	padding: 10px 16px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 6px;
+    color: white;
+    background-color: #337ab7;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.clear-fix {
+	clear: both;
+}
+hr{
+	line-height: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.col-1, .col-2, .col-3{
+	width: 30%;
+	margin-right: 15px;
+	margin-left: 15px;
+	float: left;
+}
+.btn-1{
+	padding: 10px 16px;
+	border-radius: 6px;
+	color: black;
+	background-color: #caccce;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 16px;
+}
+.col-footer {
+	padding-top: 25px;
+}
